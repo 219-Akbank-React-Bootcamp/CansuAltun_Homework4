@@ -82,4 +82,25 @@
       }
     }
   }
+  .todoList {
+    margin-top: 900px;
+    margin-left: -400px;
+    height: 300px;
+    background-color: aliceblue;
+    width: 300px;
+    .task {
+      height: 100px;
+      display: flex;
+      text-align: center;
+      font-family: "Roboto Mono", monospace;
+      margin-bottom: 20px;
+      table {
+        background-color: #10101d;
+        color: #ffffff;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 5px 10px #3c005a;
+      }
+    }
+  }
 }
